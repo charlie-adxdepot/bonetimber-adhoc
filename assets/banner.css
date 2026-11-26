@@ -1,0 +1,49 @@
+.bonetimber-adhoc-banner {
+  position: relative;
+  z-index: 40;
+  width: 100%;
+  background: linear-gradient(180deg, #fbf2d8 0%, #f7edd0 100%);
+  border-top: 1px solid rgba(218, 166, 72, 0.28);
+  border-bottom: 1px solid rgba(218, 166, 72, 0.28);
+  box-shadow: 0 6px 18px rgba(47, 44, 40, 0.08);
+}
+
+.bonetimber-adhoc-banner__link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.bonetimber-adhoc-banner__inner {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 12px 24px;
+}
+
+.bonetimber-adhoc-banner__text {
+  display: block;
+  color: #1f5b4d;
+  text-align: center;
+  font-family: "Manrope", "Segoe UI", sans-serif;
+  font-size: clamp(1.2rem, 1rem + 1vw, 2rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1.2;
+}
+
+.bonetimber-adhoc-banner__link:hover .bonetimber-adhoc-banner__text,
+.bonetimber-adhoc-banner__link:focus .bonetimber-adhoc-banner__text,
+.bonetimber-adhoc-banner__link:visited .bonetimber-adhoc-banner__text {
+  color: #1f5b4d;
+}
+
+@media (max-width: 767px) {
+  .bonetimber-adhoc-banner__inner {
+    padding: 10px 16px;
+  }
+
+  .bonetimber-adhoc-banner__text {
+    font-size: 1.05rem;
+    line-height: 1.3;
+  }
+}
